@@ -32,7 +32,7 @@ Goals:
 ● Code is logically organized, and readable
 ● Error handling is sensible
  */
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import java.net.MalformedURLException;
 import java.net.URL;

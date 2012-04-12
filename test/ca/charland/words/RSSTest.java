@@ -1,4 +1,4 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import java.io.File;
 import java.util.List;
@@ -7,8 +7,8 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import ca.charland.kik.words.Article;
-import ca.charland.kik.words.RSS;
+import ca.charland.words.Article;
+import ca.charland.words.RSS;
 
 /**
  * Tests for RSS

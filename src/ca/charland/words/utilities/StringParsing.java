@@ -1,4 +1,4 @@
-package ca.charland.kik.words.utilities;
+package ca.charland.words.utilities;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

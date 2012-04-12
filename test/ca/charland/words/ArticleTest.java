@@ -1,4 +1,4 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,6 +10,8 @@ import javax.swing.text.BadLocationException;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import ca.charland.words.Article;
 
 /**
  * Tests for Article.

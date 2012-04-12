@@ -1,8 +1,10 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import ca.charland.words.WordFrequency;
 
 /**
  * 
@@ -14,7 +16,7 @@ import org.junit.Test;
 public class WordFrequencyTest {
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordFrequency#compareTo(ca.charland.kik.words.WordFrequency)}.
+	 * Test method for {@link ca.charland.words.WordFrequency#compareTo(ca.charland.words.WordFrequency)}.
 	 */
 	@Test
 	public void testCompareToLess() {
@@ -30,7 +32,7 @@ public class WordFrequencyTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordFrequency#compareTo(ca.charland.kik.words.WordFrequency)}.
+	 * Test method for {@link ca.charland.words.WordFrequency#compareTo(ca.charland.words.WordFrequency)}.
 	 */
 	@Test
 	public void testCompareToGreater() {
@@ -46,7 +48,7 @@ public class WordFrequencyTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordFrequency#compareTo(ca.charland.kik.words.WordFrequency)}.
+	 * Test method for {@link ca.charland.words.WordFrequency#compareTo(ca.charland.words.WordFrequency)}.
 	 */
 	@Test
 	public void testCompareToEquals() {
@@ -62,7 +64,7 @@ public class WordFrequencyTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordFrequency#toString()}.
+	 * Test method for {@link ca.charland.words.WordFrequency#toString()}.
 	 */
 	@Test
 	public void testToString() {

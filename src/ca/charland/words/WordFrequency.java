@@ -1,4 +1,4 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 /**
  * A class that holds how frequent a word occurs.

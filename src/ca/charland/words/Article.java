@@ -1,4 +1,4 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLEditorKit;
 import javax.swing.text.html.parser.ParserDelegator;
 
-import ca.charland.kik.words.utilities.StringParsing;
+import ca.charland.words.utilities.StringParsing;
 
 /**
  * Represents one article.

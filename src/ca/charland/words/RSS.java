@@ -1,4 +1,4 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import java.io.IOException;
 import java.io.InputStream;

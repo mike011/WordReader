@@ -1,13 +1,15 @@
 /**
  * 
  */
-package ca.charland.kik.words.utilities;
+package ca.charland.words.utilities;
 
 import java.util.List;
 
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import ca.charland.words.utilities.StringParsing;
 
 /**
  * Tests for String Parser.
@@ -18,7 +20,7 @@ import org.junit.Test;
 public class StringParsingTest {
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}. <br>
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}. <br>
 	 * Simplest possible test.
 	 */
 	@Test
@@ -36,7 +38,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitEmpty() {
@@ -52,7 +54,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitTooShort() {
@@ -68,7 +70,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitSingleLetters() {
@@ -86,7 +88,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitTwoWords() {
@@ -104,7 +106,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitTwoSameWords() {
@@ -122,7 +124,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitTwoSameWordsDifferentCase() {
@@ -140,7 +142,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitPunctuation() {
@@ -156,7 +158,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitPunctuations() {
@@ -176,7 +178,7 @@ public class StringParsingTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.utilities.StringParsing#splitWords(java.lang.String)}.
+	 * Test method for {@link ca.charland.words.utilities.StringParsing#splitWords(java.lang.String)}.
 	 */
 	@Test
 	public void testSplitHyphenated() {

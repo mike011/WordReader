@@ -1,4 +1,4 @@
-package ca.charland.kik.words;
+package ca.charland.words;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -7,6 +7,8 @@ import java.net.URL;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import ca.charland.words.WordParser;
 
 /**
  * Tests for WordParser.
@@ -17,7 +19,7 @@ import org.junit.Test;
 public class WordParserTest {
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordParser#getURL(java.lang.String[])}.
+	 * Test method for {@link ca.charland.words.WordParser#getURL(java.lang.String[])}.
 	 */
 	@Test
 	public void testGetURLNull() {
@@ -25,7 +27,7 @@ public class WordParserTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordParser#getURL(java.lang.String[])}.
+	 * Test method for {@link ca.charland.words.WordParser#getURL(java.lang.String[])}.
 	 */
 	@Test
 	public void testGetURLEmpty() {
@@ -33,7 +35,7 @@ public class WordParserTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordParser#getURL(java.lang.String[])}.
+	 * Test method for {@link ca.charland.words.WordParser#getURL(java.lang.String[])}.
 	 */
 	@Test
 	public void testGetURL() {
@@ -49,7 +51,7 @@ public class WordParserTest {
 	}
 
 	/**
-	 * Test method for {@link ca.charland.kik.words.WordParser#getTopFifty()}.
+	 * Test method for {@link ca.charland.words.WordParser#getTopFifty()}.
 	 * 
 	 * @throws MalformedURLException
 	 */
