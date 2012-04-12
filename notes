@@ -1,0 +1,7 @@
+
+assumptions made:
+-The RSS feeds are in English. 
+--In order to verify that a legitimate word has been passed in a dictionary has been used which contains only English words 
+  
+omissions made:
+-Any words that are not in the dictionary.

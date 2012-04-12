@@ -1,0 +1,7 @@
+Instructions for running the application
+
+In a command prompt or terminal please type the following replacing <RSS> with a RSS feed:
+java -jar WordReader.jar <RSS>
+
+An example would be:
+java -jar WordReader.jar http://rss.cbc.ca/lineup/technology.xml
